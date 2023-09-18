@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Sales Prediction</title>
+</head>
+<body>
+    <h1>Sales Prediction</h1>
+    <form method="POST" action="/predict">
+        <div class="mb-3">
+        TV: <input type="text" name="tv" class="form-label"><br>
+        Radio: <input type="text" name="radio" class="form-label"><br>
+        Newspaper: <input type="text" name="newspaper" class="form-label"><br>
+        <input type="submit" value="Predict" class="form-label">
+    </div>
+    </form>
+</body>
+</html>
